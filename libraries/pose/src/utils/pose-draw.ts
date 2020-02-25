@@ -18,10 +18,10 @@
 import { Keypoint, Vector2D } from "@tensorflow-models/posenet/dist/types";
 import { getAdjacentKeyPoints } from "@tensorflow-models/posenet/dist/util";
 
-const FILL_COLOR = "aqua";
-const STROKE_COLOR = "aqua";
+const FILL_COLOR = "Crimson";
+const STROKE_COLOR = "DarkSlateBlue";
 const KEYPOINT_SIZE = 4;
-const LINE_WIDTH = 2;
+const LINE_WIDTH = 3;
 
 /**
  * Draw pose keypoints onto a canvas
